@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Listado de Ejercicios</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" />
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #141e30, #243b55);
+      color: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+
+    .container {
+      background-color: #1f2937;
+      border-radius: 16px;
+      padding: 2.5rem;
+      max-width: 700px;
+      width: 100%;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      font-size: 2.4rem;
+      color: #60a5fa;
+      position: relative;
+    }
+
+    h1::after {
+      content: '';
+      display: block;
+      width: 80px;
+      height: 4px;
+      background: #60a5fa;
+      margin: 0.5rem auto 0;
+      border-radius: 2px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 1rem;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      background-color: #374151;
+      padding: 0.8rem 1.2rem;
+      border-radius: 10px;
+      text-decoration: none;
+      color: #f9fafb;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+
+    a:hover {
+      background-color: #4b5563;
+      color: #60a5fa;
+      transform: translateX(5px);
+    }
+
+    a i {
+      font-size: 1.2rem;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Listado de Ejercicios</h1>
+    <ul>
+      <li><a href="/Trabajos/Minimal-blog-card-starter-master-main/index.html"><i class="fas fa-file-alt"></i> Ejercicio 1</a></li>
+      <li><a href="/Trabajos/advanced-faq-page-main/index.html"><i class="fas fa-question-circle"></i> Ejercicio 2</a></li>
+      <li><a href="/Trabajos/Business-blog-card-master/index.html"><i class="fas fa-briefcase"></i> Ejercicio 3</a></li>
+      <li><a href="/Trabajos/testimonial-page-master/index.html"><i class="fas fa-comments"></i> Ejercicio 4</a></li>
+      <li><a href="/Trabajos/join-our-newsletter-main/index.html"><i class="fas fa-envelope-open-text"></i> Ejercicio 5</a></li>
+      <li><a href="/Trabajos/simple-feature-section-main/index.html"><i class="fas fa-star"></i> Ejercicio 6</a></li>
+      <li><a href="/Trabajos/devchallenges-contact-page-main/index.html"><i class="fas fa-address-book"></i> Ejercicio 7</a></li>
+      <li><a href="/Trabajos/Simple-Homepage---Alarado-main/index.html"><i class="fas fa-home"></i> Ejercicio 8</a></li>
+      <li><a href="/Trabajos/Meet-the-Team-Section-main/index.html"><i class="fas fa-users"></i> Ejercicio 9</a></li>
+      <li><a href="/Trabajos/Pricing-Table-main/index.html"><i class="fas fa-tags"></i> Ejercicio 10</a></li>
+    </ul>
+  </div>
+</body>
+</html>

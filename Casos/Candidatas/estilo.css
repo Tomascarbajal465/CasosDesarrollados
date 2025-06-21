@@ -1,0 +1,68 @@
+body {
+  background-image: url("fondo.jpg");
+  background-size: cover;
+  font-family: Tahoma, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  color: #000000;
+}
+
+header, footer {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente si fondo.jpg es muy cargado */
+  padding: 15px 0;
+}
+
+#centrado {
+  text-align: center;
+}
+
+#titulo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #003366;
+}
+
+#ganadora {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #006600;
+  background-color: #e6ffe6;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #ffffffcc;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+td {
+  border: 2px solid #006699;
+  padding: 10px;
+  vertical-align: top;
+  text-align: center;
+}
+
+img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+input[type="submit"] {
+  margin-top: 5px;
+  padding: 6px 12px;
+  font-size: 14px;
+  background-color: #006699;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #004466;
+}

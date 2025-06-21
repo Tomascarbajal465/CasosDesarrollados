@@ -1,0 +1,41 @@
+ body {
+    font-family: tahoma;
+    font-size: 14px;
+}
+
+#centrado {
+    text-align: center;    
+}
+
+table {
+    margin: auto;
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+
+td {
+    border: solid 1px #006699;
+}
+
+table th {
+    background-color: #b9c9fe; 
+}
+
+#resaltado {
+    /* Agrega aquí las propiedades que quieras resaltar */
+}
+
+#derecha {
+    font-family: 'Trebuchet MS';
+    font-size: 22px;
+    text-align: right;
+}
+
+#totales {
+    font-family: 'Trebuchet MS';
+    font-size: 22px;
+    text-align: right;
+}
